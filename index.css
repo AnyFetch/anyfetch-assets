@@ -63,3 +63,21 @@ ul.anyfetch-pill-list li.anyfetch-pill {
   color: gray;
   border: solid 1px darkgray;
 }
+
+/* ## Icons */
+.anyfetch-email:before {
+  content: "@ ";
+  color: darkred;
+}
+.anyfetch-phone:before {
+  content: "# ";
+  color: darkgreen;
+}
+
+/* ## Highlight */
+span.anyfetch-hlt {
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+  background-color: lightyellow;
+}
