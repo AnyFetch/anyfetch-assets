@@ -1,0 +1,65 @@
+/* # Snippet general rules */
+.anyfetch-snippet {
+  margin: 0;
+  padding: 0.5em;
+  border-bottom: solid 1px gray;
+}
+
+.anyfetch-snippet * {
+  margin: 0.2em;
+  padding: 0;
+}
+
+.anyfetch-snippet main.anyfetch-content {
+  font-weight: lighter;
+}
+
+/* # Special elements */
+/* ## Clearfixes the header */
+header.anyfetch-header:before, header.anyfetch-header:after { 
+  content: "";
+   display: table;
+}
+header.anyfetch-header:after {
+  clear: both;
+}
+header.anyfetch-header {
+  zoom: 1;
+}
+
+/* ## Title management */
+h1.anyfetch-title {
+  font-size: 1em;
+  font-weight: bold;
+}
+hgroup.anyfetch-title-group .anyfetch-title-detail, div.anyfetch-date {
+  color: grey;
+}
+
+/* ## Image management */
+figure.anyfetch-aside-image {
+  height: 4em;
+  float: left;
+  
+}
+figure.anyfetch-aside-image img {
+  height: 100%;
+}
+
+/* ## Pills */
+ul.anyfetch-pill-list {
+  margin: 0;
+}
+ul.anyfetch-pill-list li {
+  display: inline-block;
+  list-style: none;
+}
+ul.anyfetch-pill-list li.anyfetch-pill {
+  padding: 0.2em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  margin: 0;
+  border-radius: 1em;
+  color: gray;
+  border: solid 1px darkgray;
+}
