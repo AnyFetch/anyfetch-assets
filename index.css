@@ -14,6 +14,17 @@
   font-weight: lighter;
 }
 
+/* # Full general rules */
+.anyfetch-full {
+  margin: 0;
+  padding: 0;
+}
+
+.anyfetch-full * {
+  margin-bottom: 0.5em;
+  padding: 0;
+}
+
 /* # Special elements */
 /* ## Clearfixes the header */
 header.anyfetch-header:before, header.anyfetch-header:after { 
@@ -27,13 +38,29 @@ header.anyfetch-header {
   zoom: 1;
 }
 
+/* ## Emphize the header & the content */
+.anyfetch-full header.anyfetch-header {
+  background-color: #fbfbfb;
+  border-bottom: solid 1px grey;
+  border-top: solid 1px grey;
+  padding: 0.5em;
+}
+.anyfetch-full .anyfetch-thread-part main.anyfetch-content {
+  padding: 0.5em;
+}
+
 /* ## Title management */
-h1.anyfetch-title {
+.anyfetch-snippet h1.anyfetch-title {
   font-size: 1em;
   font-weight: bold;
 }
 hgroup.anyfetch-title-group .anyfetch-title-detail, div.anyfetch-date {
   color: grey;
+}
+
+/* ## Parts */
+article.anyfetch-thread-part {
+  font-size: 0.75em;
 }
 
 /* ## Image management */
