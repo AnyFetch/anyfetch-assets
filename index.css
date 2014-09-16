@@ -1,26 +1,26 @@
 /* # Snippet general rules */
-.anyfetch-snippet {
+.anyfetch-document-snippet {
   margin: 0;
   padding: 0.5em;
   border-bottom: solid 1px gray;
 }
 
-.anyfetch-snippet * {
+.anyfetch-document-snippet * {
   margin: 0.2em;
   padding: 0;
 }
 
-.anyfetch-snippet main.anyfetch-content {
+.anyfetch-document-snippet main.anyfetch-content {
   font-weight: lighter;
 }
 
 /* # Full general rules */
-.anyfetch-full {
+.anyfetch-document-full {
   margin: 0;
   padding: 0;
 }
 
-.anyfetch-full * {
+.anyfetch-document-full * {
   margin-bottom: 0.5em;
   padding: 0;
 }
@@ -39,18 +39,18 @@ header.anyfetch-header {
 }
 
 /* ## Emphize the header & the content */
-.anyfetch-full header.anyfetch-header {
+.anyfetch-document-full header.anyfetch-header {
   background-color: #fbfbfb;
   border-bottom: solid 1px grey;
   border-top: solid 1px grey;
   padding: 0.5em;
 }
-.anyfetch-full .anyfetch-thread-part main.anyfetch-content {
+.anyfetch-document-full .anyfetch-thread-part main.anyfetch-content {
   padding: 0.5em;
 }
 
 /* ## Title management */
-.anyfetch-snippet h1.anyfetch-title {
+.anyfetch-document-snippet h1.anyfetch-title {
   font-size: 1em;
   font-weight: bold;
 }
