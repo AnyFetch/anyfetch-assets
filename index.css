@@ -1,35 +1,39 @@
-/* # Snippet general rules */
-.anyfetch-document-snippet {
+/* @module anyfetch-document-snippet { */
+article.anyfetch-document-snippet {
   margin: 0;
   padding: 0.5em;
   border-bottom: solid 1px gray;
 }
-
-.anyfetch-document-snippet * {
+article.anyfetch-document-snippet * {
   margin: 0.2em;
   padding: 0;
 }
 
-.anyfetch-document-snippet main.anyfetch-content {
+/*   @module-alteration anyfetch-content { */
+article.anyfetch-document-snippet main.anyfetch-content {
   font-weight: lighter;
 }
-
-/* # Full general rules */
-.anyfetch-document-full {
-  margin: 0;
-  padding: 0;
+/*   }
+ *   @module-alteration anyfetch-title { */
+article.anyfetch-document-snippet h1.anyfetch-title {
+  font-size: 1em;
+  font-weight: bold;
 }
+/*   }
+ * } */
 
-.anyfetch-document-full * {
-  margin-bottom: 0.5em;
-  padding: 0;
+/* @module anyfetch-document-full {
+ *   @module-alteration anyfetch-header { */
+article.anyfetch-document-full header.anyfetch-header {
 }
+/*   }
+ * } */
 
-/* # Special elements */
-/* ## Clearfixes the header */
+/* @module anyfetch-header {
+ *   @section clearfix { */
 header.anyfetch-header:before, header.anyfetch-header:after { 
   content: "";
-   display: table;
+  display: table;
 }
 header.anyfetch-header:after {
   clear: both;
@@ -37,33 +41,30 @@ header.anyfetch-header:after {
 header.anyfetch-header {
   zoom: 1;
 }
+/*   }
+ * } */
 
-/* ## Emphize the header & the content */
-.anyfetch-document-full header.anyfetch-header {
-  background-color: #fbfbfb;
-  border-bottom: solid 1px grey;
-  border-top: solid 1px grey;
-  padding: 0.5em;
+/* @module anyfetch-title { 
+ *   @module-alteration anyfetch-number { */
+h1.anyfetch-title .anyfetch-number {
+  display: inline-block;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  border-radius: 1em;
+  color: white;
+  background-color: black;
 }
-.anyfetch-document-full .anyfetch-thread-part main.anyfetch-content {
-  padding: 0.5em;
-}
+/*   }
+ * } */
 
-/* ## Title management */
-.anyfetch-document-snippet h1.anyfetch-title {
-  font-size: 1em;
-  font-weight: bold;
-}
-hgroup.anyfetch-title-group .anyfetch-title-detail, div.anyfetch-date {
+/* @module anyfetch-title-detail { */
+p.anyfetch-title-detail{
   color: grey;
 }
+/* } */
 
-/* ## Parts */
-article.anyfetch-thread-part {
-  font-size: 0.75em;
-}
 
-/* ## Image management */
+/* @module anyfetch-aside-image { */
 figure.anyfetch-aside-image {
   height: 4em;
   float: left;
@@ -72,8 +73,9 @@ figure.anyfetch-aside-image {
 figure.anyfetch-aside-image img {
   height: 100%;
 }
+/* } */
 
-/* ## Pills */
+/* @module anyfetch-pill-list { */
 ul.anyfetch-pill-list {
   margin: 0;
 }
@@ -81,7 +83,10 @@ ul.anyfetch-pill-list li {
   display: inline-block;
   list-style: none;
 }
-ul.anyfetch-pill-list li.anyfetch-pill {
+/* } */
+
+/* @module anyfetch-pill { */
+li.anyfetch-pill {
   padding: 0.2em;
   padding-left: 0.5em;
   padding-right: 0.5em;
@@ -90,21 +95,28 @@ ul.anyfetch-pill-list li.anyfetch-pill {
   color: gray;
   border: solid 1px darkgray;
 }
+/* } */
 
-/* ## Icons */
-.anyfetch-email:before {
-  content: "@ ";
-  color: darkred;
-}
-.anyfetch-phone:before {
-  content: "# ";
-  color: darkgreen;
-}
-
-/* ## Highlight */
+/* @module anyfetch-hlt { */
 span.anyfetch-hlt {
   display: inline-block;
   margin: 0px;
   padding: 0px;
   background-color: lightyellow;
 }
+/* } */
+
+/* @module anyfetch-right-arrow { */
+.anyfetch-right-arrow:before {
+  content: "→";
+}
+/* } */
+
+/* @module anyfetch-email { */
+.anyfetch-email:before {
+  content: "<";
+}
+.anyfetch-email:after {
+  content: ">";
+}
+/* } */
