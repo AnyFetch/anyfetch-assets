@@ -25,6 +25,21 @@ article.anyfetch-document-snippet h1.anyfetch-title {
 /* @module anyfetch-document-full {
  *   @module-alteration anyfetch-header { */
 article.anyfetch-document-full header.anyfetch-header {
+  background-color: #fbfbfb;
+  border-bottom: solid 1px gray;
+  border-top: solid 1px gray;
+  padding: 0.5em;
+}
+/*   }
+ *   @module-alteration anyfetch-content { */
+article.anyfetch-document-full main.anyfetch-content {
+  
+  padding: 0.5em;
+}
+/*   }
+*   @module-alteration anyfetch-thread-part { */
+article.anyfetch-document-full article.anyfetch-thread-part {
+  margin: -0.5em;
 }
 /*   }
  * } */
@@ -58,7 +73,7 @@ h1.anyfetch-title .anyfetch-number {
  * } */
 
 /* @module anyfetch-title-detail { */
-p.anyfetch-title-detail{
+.anyfetch-title-detail {
   color: grey;
 }
 /* } */
@@ -68,7 +83,6 @@ p.anyfetch-title-detail{
 figure.anyfetch-aside-image {
   height: 4em;
   float: left;
-  
 }
 figure.anyfetch-aside-image img {
   height: 100%;
@@ -78,6 +92,7 @@ figure.anyfetch-aside-image img {
 /* @module anyfetch-pill-list { */
 ul.anyfetch-pill-list {
   margin: 0;
+  padding: 0;
 }
 ul.anyfetch-pill-list li {
   display: inline-block;
@@ -87,6 +102,7 @@ ul.anyfetch-pill-list li {
 
 /* @module anyfetch-pill { */
 li.anyfetch-pill {
+  font-size: 0.75em;
   padding: 0.2em;
   padding-left: 0.5em;
   padding-right: 0.5em;
@@ -99,15 +115,16 @@ li.anyfetch-pill {
 
 /* @module anyfetch-hlt { */
 span.anyfetch-hlt {
-  display: inline-block;
-  margin: 0px;
-  padding: 0px;
   background-color: lightyellow;
 }
 /* } */
 
 /* @module anyfetch-right-arrow { */
+.anyfetch-right-arrow {
+  display: inline;
+}
 .anyfetch-right-arrow:before {
+  color: black;
   content: "→";
 }
 /* } */
@@ -118,5 +135,11 @@ span.anyfetch-hlt {
 }
 .anyfetch-email:after {
   content: ">";
+}
+/* } */
+
+/* @module anyfetch-date { */
+.anyfetch-date {
+  font-style: italic;
 }
 /* } */
