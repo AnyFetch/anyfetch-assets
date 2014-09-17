@@ -1,0 +1,23 @@
+{
+  "name": "anyfetch-snippet-style",
+  "version": "0.1.0",
+  "homepage": "https://github.com/AnyFetch/anyfetch-snippet-style",
+  "authors": [
+    "Robin Ricard <ricard.robin@gmail.com>"
+  ],
+  "description": "CSS Styles for AnyFetch Snippets",
+  "main": "index.css",
+  "keywords": [
+    "anyfetch",
+    "snippet",
+    "css"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
