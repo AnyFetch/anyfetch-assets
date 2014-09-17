@@ -8,32 +8,32 @@ article.anyfetch-document-snippet {
 }
 
 /*   @module-alteration anyfetch-contact { */
-article.anyfetch-document-snippet.anyfetch-contact {
+article.anyfetch-document-snippet.anyfetch-type-contact {
   border-left-color: #b10dc9;
 }
 /*   }
  *   @module-alteration anyfetch-document { */
-article.anyfetch-document-snippet.anyfetch-document {
+article.anyfetch-document-snippet.anyfetch-type-document {
   border-left-color: #0074d9;
 }
 /*   }
  *   @module-alteration anyfetch-single-email & anyfetch-email-thread { */
-article.anyfetch-document-snippet.anyfetch-single-email, article.anyfetch-document-snippet.anyfetch-email-thread {
+article.anyfetch-document-snippet.anyfetch-type-email, article.anyfetch-document-snippet.anyfetch-type-email-thread {
   border-left-color: #ff4136;
 }
 /*   }
  *   @module-alteration anyfetch-event { */
-article.anyfetch-document-snippet.anyfetch-event {
+article.anyfetch-document-snippet.anyfetch-type-event {
   border-left-color: #3d9970;
 }
 /*   }
  *   @module-alteration anyfetch-file { */
-article.anyfetch-document-snippet.anyfetch-file {
+article.anyfetch-document-snippet.anyfetch-type-file {
   border-left-color: #dddddd;
 }
 /*   }
  *   @module-alteration anyfetch-image { */
-article.anyfetch-document-snippet.anyfetch-image {
+article.anyfetch-document-snippet.anyfetch-type-image {
   border-left-color: #ffdc00;
 }
 /*   }
