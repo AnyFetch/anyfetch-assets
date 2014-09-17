@@ -4,6 +4,7 @@
 /* @module anyfetch-document-snippet { */
 article.anyfetch-document-snippet {
   border-left: solid 0.2em;
+  border-bottom: solid 1px gray;
 }
 
 /*   @module-alteration anyfetch-contact { */
