@@ -1,0 +1,144 @@
+/* @module anyfetch-document-snippet { */
+article.anyfetch-document-snippet {
+  margin: 0;
+  padding: 0.5em;
+}
+article.anyfetch-document-snippet * {
+  margin: 0.2em;
+  padding: 0;
+}
+
+/*   @module-alteration anyfetch-content { */
+article.anyfetch-document-snippet main.anyfetch-content {
+  font-weight: lighter;
+}
+/*   }
+ *   @module-alteration anyfetch-title { */
+article.anyfetch-document-snippet h1.anyfetch-title {
+  font-size: 1em;
+  font-weight: bold;
+}
+/*   }
+ * } */
+
+/* @module anyfetch-document-full {
+ *   @module-alteration anyfetch-header { */
+article.anyfetch-document-full header.anyfetch-header {
+  background-color: #fbfbfb;
+  border-bottom: solid 1px gray;
+  border-top: solid 1px gray;
+  padding: 0.5em;
+}
+/*   }
+ *   @module-alteration anyfetch-content { */
+article.anyfetch-document-full main.anyfetch-content {
+  
+  padding: 0.5em;
+}
+/*   }
+*   @module-alteration anyfetch-thread-part { */
+article.anyfetch-document-full article.anyfetch-thread-part {
+  margin: -0.5em;
+}
+/*   }
+ * } */
+
+/* @module anyfetch-header {
+ *   @section clearfix { */
+header.anyfetch-header:before, header.anyfetch-header:after { 
+  content: "";
+  display: table;
+}
+header.anyfetch-header:after {
+  clear: both;
+}
+header.anyfetch-header {
+  zoom: 1;
+}
+/*   }
+ * } */
+
+/* @module anyfetch-title { 
+ *   @module-alteration anyfetch-number { */
+h1.anyfetch-title .anyfetch-number {
+  display: inline-block;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  border-radius: 1em;
+  color: white;
+  background-color: black;
+}
+/*   }
+ * } */
+
+/* @module anyfetch-title-detail { */
+.anyfetch-title-detail {
+  color: grey;
+}
+/* } */
+
+
+/* @module anyfetch-aside-image { */
+figure.anyfetch-aside-image {
+  height: 4em;
+  float: left;
+}
+figure.anyfetch-aside-image img {
+  height: 100%;
+}
+/* } */
+
+/* @module anyfetch-pill-list { */
+ul.anyfetch-pill-list {
+  margin: 0;
+  padding: 0;
+}
+ul.anyfetch-pill-list li {
+  display: inline-block;
+  list-style: none;
+}
+/* } */
+
+/* @module anyfetch-pill { */
+li.anyfetch-pill {
+  font-size: 0.75em;
+  padding: 0.2em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  margin: 0;
+  border-radius: 1em;
+  color: gray;
+  border: solid 1px darkgray;
+}
+/* } */
+
+/* @module anyfetch-hlt { */
+span.anyfetch-hlt {
+  background-color: lightyellow;
+}
+/* } */
+
+/* @module anyfetch-right-arrow { */
+.anyfetch-right-arrow {
+  display: inline;
+}
+.anyfetch-right-arrow:before {
+  color: black;
+  content: "→";
+}
+/* } */
+
+/* @module anyfetch-email { */
+.anyfetch-email:before {
+  content: "<";
+}
+.anyfetch-email:after {
+  content: ">";
+}
+/* } */
+
+/* @module anyfetch-date { */
+.anyfetch-date {
+  font-style: italic;
+}
+/* } */

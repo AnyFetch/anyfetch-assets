@@ -1,0 +1,58 @@
+/* OPTIONAL STYLESHEET */
+/* PALETTE: http://clrs.cc/ */
+
+/* @module anyfetch-document-snippet { */
+article.anyfetch-document-snippet {
+  border-left: solid 0.2em;
+  border-bottom: solid 1px gray;
+}
+
+/*   @module-alteration anyfetch-contact { */
+article.anyfetch-document-snippet.anyfetch-contact {
+  border-left-color: #b10dc9;
+}
+/*   }
+ *   @module-alteration anyfetch-document { */
+article.anyfetch-document-snippet.anyfetch-document {
+  border-left-color: #0074d9;
+}
+/*   }
+ *   @module-alteration anyfetch-single-email & anyfetch-email-thread { */
+article.anyfetch-document-snippet.anyfetch-single-email, article.anyfetch-document-snippet.anyfetch-email-thread {
+  border-left-color: #ff4136;
+}
+/*   }
+ *   @module-alteration anyfetch-event { */
+article.anyfetch-document-snippet.anyfetch-event {
+  border-left-color: #3d9970;
+}
+/*   }
+ *   @module-alteration anyfetch-file { */
+article.anyfetch-document-snippet.anyfetch-file {
+  border-left-color: #dddddd;
+}
+/*   }
+ *   @module-alteration anyfetch-image { */
+article.anyfetch-document-snippet.anyfetch-image {
+  border-left-color: #ffdc00;
+}
+/*   }
+ * } */
+
+/* @module anyfetch-email { */
+.anyfetch-email {
+  color: #85144b; 
+}
+/* } */
+
+/* @module anyfetch-phone { */
+.anyfetch-phone {
+  color: #3d9970; 
+}
+/* } */
+
+/* @module anyfetch-person { */
+.anyfetch-phone {
+  color: #001f3f; 
+}
+/* } */

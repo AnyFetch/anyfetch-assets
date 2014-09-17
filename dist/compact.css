@@ -1,0 +1,33 @@
+/* OPTIONAL STYLESHEET */
+
+/* @module anyfetch-snippet { */
+article.anyfetch-document-snippet {
+  padding: 0.1em;
+  margin: 0;
+}
+/* } */
+
+/* @module anyfetch-header { */
+header.anyfetch-header {
+  padding: 0.2em;
+}
+header.anyfetch-header * {
+  margin: 0.2em;
+}
+header.anyfetch-header > * {
+  display: inline-block;
+}
+header.anyfetch-header hgroup > * {
+  display: inline-block;
+}
+header.anyfetch-header ul {
+  display: inline;
+}
+/* } */
+
+/* @module anyfetch-aside-image { */
+figure.anyfetch-aside-image {
+  height: 2em;
+  float: left;
+}
+/* } */
