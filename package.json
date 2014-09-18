@@ -7,7 +7,9 @@
     "type": "git",
     "url": "https://github.com/AnyFetch/anyfetch-snippet-style.git"
   },
-  "dependencies": {},
+  "dependencies": {
+    "gulp-concat": "^2.4.1"
+  },
   "devDependencies": {
     "gulp": "^3.8.8",
     "gulp-minify-css": "^0.3.8",
