@@ -23,6 +23,14 @@ article.anyfetch-document-snippet h1.anyfetch-title {
   white-space: nowrap;
   max-height: 1.5em;
 }
+
+article.anyfetch-document-snippet ul.anyfetch-participants {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  display: inline-block;
+}
+
 /*   }
  * } */
 
