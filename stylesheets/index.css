@@ -25,13 +25,6 @@ article.anyfetch-document-snippet h1.anyfetch-title {
   margin: 0;
 }
 
-article.anyfetch-document-snippet ul.anyfetch-participants {
-  overflow: hidden;
-  white-space: nowrap;
-  width: 100%;
-  display: inline-block;
-}
-
 /*   }
  * } */
 
@@ -156,3 +149,22 @@ span.anyfetch-hlt {
   font-style: italic;
 }
 /* } */
+
+
+/**
+ * Document type specifics
+ *
+ */
+
+/* Don't let particpants lsit overflow */
+article.anyfetch-document-snippet.anyfetch-type-email-thread ul.anyfetch-participants {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  display: inline-block;
+}
+
+/* Let contact image float left */
+article.anyfetch-document-snippet.anyfetch-type-contact h1.anyfetch-title {
+  width: auto;
+}
