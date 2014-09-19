@@ -3,7 +3,7 @@ article.anyfetch-document-snippet {
   margin: 0;
   padding: 0.5em;
 }
-article.anyfetch-document-snippet * {
+article.anyfetch-document-snippet > *, article.anyfetch-document-snippet p, article.anyfetch-document-snippet figure {
   margin: 0.2em;
   padding: 0;
 }
@@ -17,7 +17,20 @@ article.anyfetch-document-snippet main.anyfetch-content {
 article.anyfetch-document-snippet h1.anyfetch-title {
   font-size: 1em;
   font-weight: bold;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width:100%;
+  white-space: nowrap;
+  max-height: 1.5em;
 }
+
+article.anyfetch-document-snippet ul.anyfetch-participants {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  display: inline-block;
+}
+
 /*   }
  * } */
 
@@ -32,7 +45,7 @@ article.anyfetch-document-full header.anyfetch-header {
 /*   }
  *   @module-alteration anyfetch-content { */
 article.anyfetch-document-full main.anyfetch-content {
-  
+
   padding: 0.5em;
 }
 /*   }
@@ -45,7 +58,7 @@ article.anyfetch-document-full article.anyfetch-thread-part {
 
 /* @module anyfetch-header {
  *   @section clearfix { */
-header.anyfetch-header:before, header.anyfetch-header:after { 
+header.anyfetch-header:before, header.anyfetch-header:after {
   content: "";
   display: table;
 }
@@ -58,7 +71,7 @@ header.anyfetch-header {
 /*   }
  * } */
 
-/* @module anyfetch-title { 
+/* @module anyfetch-title {
  *   @module-alteration anyfetch-number { */
 h1.anyfetch-title .anyfetch-number {
   display: inline-block;
