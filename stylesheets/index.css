@@ -3,7 +3,7 @@ article.anyfetch-document-snippet {
   margin: 0;
   padding: 0.5em;
 }
-article.anyfetch-document-snippet * {
+article.anyfetch-document-snippet :not(span) {
   margin: 0.2em;
   padding: 0;
 }
