@@ -6,21 +6,3 @@ article.anyfetch-document-snippet {
   margin: 0;
 }
 /* } */
-
-/* @module anyfetch-header { */
-header.anyfetch-header {
-  padding: 0.2em;
-}
-header.anyfetch-header * {
-  margin: 0.2em;
-}
-header.anyfetch-header > * {
-  display: inline-block;
-}
-header.anyfetch-header hgroup > * {
-  display: inline-block;
-}
-header.anyfetch-header ul {
-  display: inline;
-}
-/* } */
