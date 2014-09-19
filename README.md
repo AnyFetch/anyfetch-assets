@@ -20,7 +20,11 @@ bower install --save anyfetch-snippet-style
 and in your HTML:
 
 ```html
-<link rel="stylesheet" type="text/css" src="bower_components/anyfetch-snippet-style/dist/index.css" />
+<link rel="stylesheet" type="text/css" src="bower_components/anyfetch-snippet-style/dist/index.min.css" />
+<script type="text/javascript" src="bower_components/anyfetch-snippet-style/dist/index-moment.min.js"></script>
+<script type="text/javascript" charset="utf-8">
+snippetstyle.formatdates();
+</script>
 ```
 
 Build
@@ -30,5 +34,6 @@ If you want to build this repository:
 
 ```
 npm install
+bower install
 gulp
 ```
