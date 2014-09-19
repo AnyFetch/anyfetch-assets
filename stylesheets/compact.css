@@ -24,10 +24,3 @@ header.anyfetch-header ul {
   display: inline;
 }
 /* } */
-
-/* @module anyfetch-aside-image { */
-figure.anyfetch-aside-image {
-  height: 2em;
-  float: left;
-}
-/* } */
