@@ -22,13 +22,7 @@ article.anyfetch-document-snippet h1.anyfetch-title {
   width:100%;
   white-space: nowrap;
   max-height: 1.5em;
-}
-
-article.anyfetch-document-snippet ul.anyfetch-participants {
-  overflow: hidden;
-  white-space: nowrap;
-  width: 100%;
-  display: inline-block;
+  margin: 0;
 }
 
 /*   }
@@ -104,7 +98,7 @@ figure.anyfetch-aside-image img {
 /* @module anyfetch-pill-list { */
 ul.anyfetch-pill-list {
   margin: 0;
-  padding: 0;
+  padding: 0.1em 0;
 }
 ul.anyfetch-pill-list li {
   display: inline-block;
@@ -155,3 +149,22 @@ span.anyfetch-hlt {
   font-style: italic;
 }
 /* } */
+
+
+/**
+ * Document type specifics
+ *
+ */
+
+/* Don't let particpants lsit overflow */
+article.anyfetch-document-snippet.anyfetch-type-email-thread ul.anyfetch-participants {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  display: inline-block;
+}
+
+/* Let contact image float left */
+article.anyfetch-document-snippet.anyfetch-type-contact h1.anyfetch-title {
+  width: auto;
+}
