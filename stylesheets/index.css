@@ -39,7 +39,6 @@ article.anyfetch-document-full header.anyfetch-header {
 /*   }
  *   @module-alteration anyfetch-content { */
 article.anyfetch-document-full main.anyfetch-content {
-
   padding: 0.5em;
 }
 /*   }
@@ -165,6 +164,6 @@ article.anyfetch-document-snippet.anyfetch-type-email-thread ul.anyfetch-partici
 }
 
 /* Let contact image float left */
-article.anyfetch-document-snippet.anyfetch-type-contact h1.anyfetch-title {
+article.anyfetch-document-snippet.anyfetch-type-contact h1.anyfetch-title, article.anyfetch-document-snippet.anyfetch-type-image h1.anyfetch-title {
   width: auto;
 }
