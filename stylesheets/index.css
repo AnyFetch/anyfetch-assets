@@ -96,12 +96,22 @@ figure.anyfetch-aside-image img {
 
 /* @module anyfetch-pill-list { */
 ul.anyfetch-pill-list {
+  display: inline-block;
+  white-space: nowrap;
+  overflow-x: hidden;
+  width: 100%;
   margin: 0;
   padding: 0.1em 0;
+  mask-image: linear-gradient(to right, rgba(2,255,255,1) 95%,rgba(255,255,255,0) 100%);
+  -webkit-mask-image: linear-gradient(to right, rgba(2,255,255,1) 95%,rgba(255,255,255,0) 100%);
 }
 ul.anyfetch-pill-list li {
   display: inline-block;
   list-style: none;
+}
+.anyfetch-mobile-scroll ul.anyfetch-pill-list  {
+  overflow-x: scroll;
+  padding-right: 5%;
 }
 /* } */
 
@@ -154,14 +164,6 @@ span.anyfetch-hlt {
  * Document type specifics
  *
  */
-
-/* Don't let participants list overflow */
-article.anyfetch-document-snippet.anyfetch-type-email-thread ul.anyfetch-participants {
-  overflow: hidden;
-  white-space: nowrap;
-  width: 100%;
-  display: inline-block;
-}
 
 article.anyfetch-document-snippet.anyfetch-type-email-thread .anyfetch-message-count, article.anyfetch-document-snippet.anyfetch-type-email-thread .anyfetch-title .anyfetch-icon-related {
   float: right;
