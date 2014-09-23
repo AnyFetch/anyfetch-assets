@@ -3,6 +3,7 @@ var minifyCSS = require('gulp-minify-css');
 var rename = require('gulp-rename');
 var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
+var jshint = require('gulp-jshint');
 
 var CSS  = './stylesheets/';
 var JS   = './scripts/';
@@ -12,7 +13,7 @@ var MOMENT = BOWER + 'moment/min/';
 
 gulp.task('default', ['build']);
 
-gulp.task('build', ['minifyCss', 'concatCss', 'minifyJs', 'concatJs']);
+gulp.task('build', ['minifyCss', 'concatCss', 'lint', 'minifyJs', 'concatJs']);
 
 gulp.task('minifyCss', function minifyCss() {
   return gulp.src(CSS + '*.css')
@@ -26,6 +27,12 @@ gulp.task('concatCss', ['minifyCss'], function concatCss() {
   return gulp.src([DEST + 'index.min.css', DEST + 'compact.min.css'])
     .pipe(concat('index-compact.min.css'))
     .pipe(gulp.dest(DEST));
+});
+
+gulp.task('lint', function() {
+  return gulp.src(JS + '*.js')
+    .pipe(jshint())
+    .pipe(jshint.reporter('jshint-stylish'));
 });
 
 gulp.task('minifyJs', function minifyJs() {
