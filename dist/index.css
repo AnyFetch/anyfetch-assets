@@ -32,9 +32,18 @@ article.anyfetch-document-snippet h1.anyfetch-title {
  *   @module-alteration anyfetch-header { */
 article.anyfetch-document-full header.anyfetch-header {
   background-color: #fbfbfb;
-  border-bottom: solid 1px gray;
-  border-top: solid 1px gray;
+  border-bottom: solid 1px lightgray;
   padding: 0.5em;
+}
+article.anyfetch-document-full header.anyfetch-header .anyfetch-title-group h1.anyfetch-title {
+  font-size: 1.4em;
+  color: #444;
+  margin-top: 0;
+  margin-bottom: 0.4em;
+}
+article.anyfetch-document-full header.anyfetch-header .anyfetch-title-group p.anyfetch-title-detail {
+  margin-top: 0.4em;
+  margin-bottom: 0.4em;
 }
 /*   }
  *   @module-alteration anyfetch-content { */
