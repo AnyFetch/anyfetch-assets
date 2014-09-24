@@ -48,7 +48,10 @@ article.anyfetch-document-full header.anyfetch-header .anyfetch-title-group p.an
 /*   }
  *   @module-alteration anyfetch-content { */
 article.anyfetch-document-full main.anyfetch-content {
-  padding: 0.5em;
+  padding: 0.7em;
+}
+.anyfetch-mobile-scroll article.anyfetch-document-full main.anyfetch-content {
+  overflow: scroll;
 }
 /*   }
 *   @module-alteration anyfetch-thread-part { */
@@ -121,6 +124,7 @@ ul.anyfetch-pill-list li {
 .anyfetch-mobile-scroll ul.anyfetch-pill-list  {
   overflow-x: scroll;
   padding-right: 5%;
+  width: 95%;
 }
 /* } */
 
