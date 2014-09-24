@@ -91,7 +91,7 @@ h1.anyfetch-title .anyfetch-number {
 
 /* @module anyfetch-title-detail { */
 .anyfetch-title-detail {
-  color: grey;
+  color: gray;
 }
 /* } */
 
@@ -152,7 +152,7 @@ span.anyfetch-hlt {
   display: inline;
 }
 .anyfetch-right-arrow:before {
-  color: black;
+  color: gray;
   content: "→";
 }
 /* } */
