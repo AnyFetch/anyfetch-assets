@@ -51,7 +51,7 @@ article.anyfetch-document-full main.anyfetch-content {
   padding: 0.7em;
 }
 .anyfetch-mobile-scroll article.anyfetch-document-full main.anyfetch-content {
-  overflow: scroll;
+  overflow-x: auto;
 }
 /*   }
 *   @module-alteration anyfetch-thread-part { */
@@ -122,7 +122,8 @@ ul.anyfetch-pill-list li {
   list-style: none;
 }
 .anyfetch-mobile-scroll ul.anyfetch-pill-list  {
-  overflow-x: scroll;
+  overflow-x: auto;
+  overflow-y: hidden;
   padding-right: 5%;
   width: 95%;
 }
