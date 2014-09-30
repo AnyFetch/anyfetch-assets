@@ -36,3 +36,7 @@ If you want to build this repository:
 npm install
 gulp
 ```
+
+Deploy
+------
+Update the version in `bower.json`, run gulp, and commit your changes. Then run `npm version x.x.x`: this will create a new commit and tag it. You can now run `git push origin master vx.x.x`. And voilà!
