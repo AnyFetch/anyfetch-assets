@@ -34,7 +34,6 @@ If you want to build this repository:
 
 ```
 npm install
-bower install
 gulp
 ```
 

@@ -32,14 +32,26 @@ article.anyfetch-document-snippet h1.anyfetch-title {
  *   @module-alteration anyfetch-header { */
 article.anyfetch-document-full header.anyfetch-header {
   background-color: #fbfbfb;
-  border-bottom: solid 1px gray;
-  border-top: solid 1px gray;
+  border-bottom: solid 1px lightgray;
   padding: 0.5em;
+}
+article.anyfetch-document-full header.anyfetch-header .anyfetch-title-group h1.anyfetch-title {
+  font-size: 1.4em;
+  color: #444;
+  margin-top: 0;
+  margin-bottom: 0.4em;
+}
+article.anyfetch-document-full header.anyfetch-header .anyfetch-title-group p.anyfetch-title-detail {
+  margin-top: 0.4em;
+  margin-bottom: 0.4em;
 }
 /*   }
  *   @module-alteration anyfetch-content { */
 article.anyfetch-document-full main.anyfetch-content {
-  padding: 0.5em;
+  padding: 0.7em;
+}
+.anyfetch-mobile-scroll article.anyfetch-document-full main.anyfetch-content {
+  overflow-x: auto;
 }
 /*   }
 *   @module-alteration anyfetch-thread-part { */
@@ -79,7 +91,7 @@ h1.anyfetch-title .anyfetch-number {
 
 /* @module anyfetch-title-detail { */
 .anyfetch-title-detail {
-  color: grey;
+  color: gray;
 }
 /* } */
 
@@ -96,12 +108,24 @@ figure.anyfetch-aside-image img {
 
 /* @module anyfetch-pill-list { */
 ul.anyfetch-pill-list {
+  display: inline-block;
+  white-space: nowrap;
+  overflow-x: hidden;
+  width: 100%;
   margin: 0;
   padding: 0.1em 0;
+  mask-image: linear-gradient(to right, rgba(2,255,255,1) 95%,rgba(255,255,255,0) 100%);
+  -webkit-mask-image: linear-gradient(to right, rgba(2,255,255,1) 95%,rgba(255,255,255,0) 100%);
 }
 ul.anyfetch-pill-list li {
   display: inline-block;
   list-style: none;
+}
+.anyfetch-mobile-scroll ul.anyfetch-pill-list  {
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-right: 5%;
+  width: 95%;
 }
 /* } */
 
@@ -129,7 +153,7 @@ span.anyfetch-hlt {
   display: inline;
 }
 .anyfetch-right-arrow:before {
-  color: black;
+  color: gray;
   content: "→";
 }
 /* } */
@@ -154,14 +178,6 @@ span.anyfetch-hlt {
  * Document type specifics
  *
  */
-
-/* Don't let participants list overflow */
-article.anyfetch-document-snippet.anyfetch-type-email-thread ul.anyfetch-participants {
-  overflow: hidden;
-  white-space: nowrap;
-  width: 100%;
-  display: inline-block;
-}
 
 article.anyfetch-document-snippet.anyfetch-type-email-thread .anyfetch-message-count, article.anyfetch-document-snippet.anyfetch-type-email-thread .anyfetch-title .anyfetch-icon-related {
   float: right;
