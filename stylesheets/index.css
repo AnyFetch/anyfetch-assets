@@ -85,6 +85,8 @@ h1.anyfetch-title .anyfetch-number {
   border-radius: 1em;
   color: rgb(100, 100, 100);
   border: 1px solid rgb(100, 100, 100);
+  font-size: .8em;
+  margin-right: .5em;
 }
 /*   }
  * } */
