@@ -114,8 +114,8 @@ ul.anyfetch-pill-list {
   width: 100%;
   margin: 0;
   padding: 0.1em 0;
-  mask-image: linear-gradient(to right, rgba(2,255,255,1) 95%,rgba(255,255,255,0) 100%);
-  -webkit-mask-image: linear-gradient(to right, rgba(2,255,255,1) 95%,rgba(255,255,255,0) 100%);
+  mask-image: linear-gradient(to right, rgba(2,255,255,1) 95%, rgba(255,255,255,0) 100%);
+  -webkit-mask-image: linear-gradient(to right, rgba(2,255,255,1) 95%, rgba(255,255,255,0) 100%);
 }
 ul.anyfetch-pill-list li {
   display: inline-block;
@@ -192,8 +192,15 @@ article.anyfetch-document-snippet.anyfetch-type-contact h1.anyfetch-title, artic
  * ICONS
  */
 .anyfetch-icon-people {
-  padding-left: 20px;
-  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAoUlEQVQ4y2NgGAVogBGIfYF4HhAvAGIfSg1sAeL/aLiBXMMUgPgfFgP/ArEcOQYGYzEMhv3JMdASj4Em5BjIBMSHsRi2FxpZZAFBIJ4LxO+B+B0QzwRi/kGVDvmA2AYaQUFAbAXEPOQYZArEm4H4N5Yw/AXEG4DYiFjDiqFp7T8B/AeI8wgZFkOEQeg4DJ+Ba8gwcAU+AwugCkjBeQwjGwAA0spZMeTYvn4AAAAASUVORK5CYII=) no-repeat;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAQCAYAAAAbBi9cAAAA+ElEQ…jJJn6OkzuU9kop5arWejkc/9o/eLwxKP72oIfnKYlOBsUrMvs/CqmM4RAAAAAASUVORK5CYII=);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 1em;
+  margin-right: .5em;
+  margin-left: -.2em;
 }
 
 .anyfetch-icon-related {
