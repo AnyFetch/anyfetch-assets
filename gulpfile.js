@@ -7,13 +7,14 @@ var jshint = require('gulp-jshint');
 
 var CSS  = './stylesheets/';
 var JS   = './scripts/';
+var IMG   = './images/';
 var DEST = './dist/';
 var BOWER = './bower_components/';
 var MOMENT = BOWER + 'moment/min/';
 
 gulp.task('default', ['build']);
 
-gulp.task('build', ['minifyCss', 'concatCss', 'lint', 'minifyJs', 'concatJs']);
+gulp.task('build', ['minifyCss', 'concatCss', 'lint', 'minifyJs', 'concatJs', 'addImg']);
 
 gulp.task('minifyCss', function minifyCss() {
   return gulp.src(CSS + '*.css')
@@ -47,6 +48,11 @@ gulp.task('concatJs', ['minifyJs'], function concatCss() {
   return gulp.src([MOMENT + 'moment-with-locales.min.js', DEST + 'index.min.js'])
     .pipe(concat('index-moment.min.js'))
     .pipe(gulp.dest(DEST));
+});
+
+gulp.task('addImg', function concatImg() {
+  return gulp.src(IMG + '*/*')
+    .pipe(gulp.dest(DEST + "images/"));
 });
 
 gulp.task('watch', function watch() {
