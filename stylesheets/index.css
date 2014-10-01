@@ -80,11 +80,11 @@ header.anyfetch-header {
  *   @module-alteration anyfetch-number { */
 h1.anyfetch-title .anyfetch-number {
   display: inline-block;
-  padding-left: 0.5em;
-  padding-right: 0.5em;
+  padding-left: 0.4em;
+  padding-right: 0.4em;
   border-radius: 1em;
-  color: white;
-  background-color: rgb(100, 100, 100);
+  color: rgb(100, 100, 100);
+  border: 1px fixed rgb(100, 100, 100);
 }
 /*   }
  * } */
@@ -178,10 +178,6 @@ span.anyfetch-hlt {
  * Document type specifics
  *
  */
-
-article.anyfetch-document-snippet.anyfetch-type-email-thread .anyfetch-message-count, article.anyfetch-document-snippet.anyfetch-type-email-thread .anyfetch-title .anyfetch-icon-related {
-  float: right;
-}
 
 /* Let contact image float left */
 article.anyfetch-document-snippet.anyfetch-type-contact h1.anyfetch-title, article.anyfetch-document-snippet.anyfetch-type-image h1.anyfetch-title {
