@@ -80,11 +80,13 @@ header.anyfetch-header {
  *   @module-alteration anyfetch-number { */
 h1.anyfetch-title .anyfetch-number {
   display: inline-block;
-  padding-left: 0.5em;
-  padding-right: 0.5em;
+  padding-left: 0.4em;
+  padding-right: 0.4em;
   border-radius: 1em;
-  color: white;
-  background-color: rgb(100, 100, 100);
+  color: rgb(100, 100, 100);
+  border: 1px solid rgb(100, 100, 100);
+  font-size: .8em;
+  margin-right: .5em;
 }
 /*   }
  * } */
@@ -114,8 +116,8 @@ ul.anyfetch-pill-list {
   width: 100%;
   margin: 0;
   padding: 0.1em 0;
-  mask-image: linear-gradient(to right, rgba(2,255,255,1) 95%,rgba(255,255,255,0) 100%);
-  -webkit-mask-image: linear-gradient(to right, rgba(2,255,255,1) 95%,rgba(255,255,255,0) 100%);
+  mask-image: linear-gradient(to right, rgba(2,255,255,1) 95%, rgba(255,255,255,0) 100%);
+  -webkit-mask-image: linear-gradient(to right, rgba(2,255,255,1) 95%, rgba(255,255,255,0) 100%);
 }
 ul.anyfetch-pill-list li {
   display: inline-block;
@@ -179,10 +181,6 @@ span.anyfetch-hlt {
  *
  */
 
-article.anyfetch-document-snippet.anyfetch-type-email-thread .anyfetch-message-count, article.anyfetch-document-snippet.anyfetch-type-email-thread .anyfetch-title .anyfetch-icon-related {
-  float: right;
-}
-
 /* Let contact image float left */
 article.anyfetch-document-snippet.anyfetch-type-contact h1.anyfetch-title, article.anyfetch-document-snippet.anyfetch-type-image h1.anyfetch-title {
   width: auto;
@@ -192,8 +190,15 @@ article.anyfetch-document-snippet.anyfetch-type-contact h1.anyfetch-title, artic
  * ICONS
  */
 .anyfetch-icon-people {
-  padding-left: 20px;
-  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAoUlEQVQ4y2NgGAVogBGIfYF4HhAvAGIfSg1sAeL/aLiBXMMUgPgfFgP/ArEcOQYGYzEMhv3JMdASj4Em5BjIBMSHsRi2FxpZZAFBIJ4LxO+B+B0QzwRi/kGVDvmA2AYaQUFAbAXEPOQYZArEm4H4N5Yw/AXEG4DYiFjDiqFp7T8B/AeI8wgZFkOEQeg4DJ+Ba8gwcAU+AwugCkjBeQwjGwAA0spZMeTYvn4AAAAASUVORK5CYII=) no-repeat;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAQCAYAAAAbBi9cAAAA+ElEQVQ4y83SMUvcQRQE8J931ukkrVdpFQjBfksFC7UWJHDfwD4MyZdIbxWwEBVL2eIQLLQQxM5CSLC0EBQUz+ognPc/7tLErR5vdue9mVne25lpApLMYBXraGE3yWHT/daYIT+wj6/YwkGSTLVRknlcj8Bf0ElyM+lGXxqGtPB5Gml/xkj+PQ3RKXoj+sc4G/WgPapZa+2XUvYwhw4esINuksf/9o8+4BM+oo9bXCS5n4goyRK+YRmzQ/ATjvA9yXmjR0m28QsLDUG0sYhuKeWu1nr6hijJJn6OkzuU9kop5arWejkc/9o/eLwxKP72oIfnKYlOBsUrMvs/CqmM4RAAAAAASUVORK5CYII=);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 1em;
+  margin-right: .5em;
+  margin-left: -.2em;
 }
 
 .anyfetch-icon-related {
