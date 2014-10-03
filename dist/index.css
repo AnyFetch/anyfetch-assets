@@ -67,9 +67,6 @@ header.anyfetch-header:before, header.anyfetch-header:after {
   content: "";
   display: table;
 }
-header.anyfetch-header:after {
-  clear: both;
-}
 header.anyfetch-header {
   zoom: 1;
 }
