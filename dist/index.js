@@ -1,9 +1,12 @@
-/** @module snippetStyle */
-window.snippetStyle = {
+/** @module anyfetchAssets */
+window.anyfetchAssets = {
   /** Format all anyfetch-date classes in document
-   * @param fromNow {boolean} Defines if the dates should be shown relative to now, defaults to false
-   * @param format {String} A moment format string, defaults to llll
-   * @param locale {String} Sets the locale, defaults to en
+   * @param options {Object} {
+   *   fromNow  {boolean} Defines if the dates should be shown relative to now, defaults to false
+   *   format   {String}  A moment format string, defaults to lll
+   *   locale   {String}  Sets the locale, defaults to en
+   *   document {Object}  DOM Document to use for searching, default to document
+   * }
    */
   formatDates: function formatDates(options) {
     options = options || {};
