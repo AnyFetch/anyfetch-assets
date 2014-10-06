@@ -1,14 +1,14 @@
 {
-  "name": "anyfetch-snippet-style",
-  "version": "1.1.8",
-  "description": "CSS Styles for AnyFetch Snippets",
+  "name": "anyfetch-assets",
+  "version": "1.2.0",
+  "description": "CSS/JS/Images resources for anyfetch projects",
   "author": "Robin Ricard <ricard.robin@gmail.com>",
   "contributors": [
     "Antoine Bolvy <antoine.bolvy@gmail.com>"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/AnyFetch/anyfetch-snippet-style.git"
+    "url": "https://github.com/AnyFetch/anyfetch-assets.git"
   },
   "scripts": {
     "postinstall": "node ./node_modules/.bin/bower install",
