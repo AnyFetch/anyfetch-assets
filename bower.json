@@ -1,13 +1,12 @@
 {
-  "name": "anyfetch-snippet-style",
+  "name": "anyfetch-assets",
   "version": "1.1.8",
-  "homepage": "https://github.com/AnyFetch/anyfetch-snippet-style",
+  "homepage": "https://github.com/AnyFetch/anyfetch-assets",
   "authors": [
     "Robin Ricard <ricard.robin@gmail.com>",
     "Antoine Bolvy <antoine.bolvy@gmail.com>"
   ],
-  "description": "CSS Styles for AnyFetch Snippets",
-  "main": "index.css",
+  "description": "CSS/JS/Images resources for anyfetch projects",
   "keywords": [
     "anyfetch",
     "snippet",
