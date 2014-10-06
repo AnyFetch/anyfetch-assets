@@ -23,7 +23,7 @@ and in your HTML:
 <link rel="stylesheet" type="text/css" src="bower_components/anyfetch-assets/dist/index.min.css" />
 <script type="text/javascript" src="bower_components/anyfetch-assets/dist/index-moment.min.js"></script>
 <script type="text/javascript" charset="utf-8">
-snippetStyle.formatDates();
+anyfetchAssets.formatDates();
 </script>
 ```
 
