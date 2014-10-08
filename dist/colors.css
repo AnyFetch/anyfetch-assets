@@ -1,3 +1,5 @@
+@charset "utf-8";
+
 /* OPTIONAL STYLESHEET */
 /* PALETTE: http://clrs.cc/ */
 
@@ -41,18 +43,18 @@ article.anyfetch-document-snippet.anyfetch-type-image {
 
 /* @module anyfetch-email { */
 .anyfetch-email {
-  color: #85144b; 
+  color: #85144b;
 }
 /* } */
 
 /* @module anyfetch-phone { */
 .anyfetch-phone {
-  color: #3d9970; 
+  color: #3d9970;
 }
 /* } */
 
 /* @module anyfetch-person { */
 .anyfetch-phone {
-  color: #001f3f; 
+  color: #001f3f;
 }
 /* } */

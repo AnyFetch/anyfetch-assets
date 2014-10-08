@@ -1,3 +1,5 @@
+@charset "utf-8";
+
 /* @module anyfetch-document-snippet { */
 article.anyfetch-document-snippet {
   margin: 0;
@@ -48,10 +50,8 @@ article.anyfetch-document-full header.anyfetch-header .anyfetch-title-group p.an
 /*   }
  *   @module-alteration anyfetch-content { */
 article.anyfetch-document-full main.anyfetch-content {
+  overflow: auto;
   padding: 0.7em;
-}
-.anyfetch-mobile-scroll article.anyfetch-document-full main.anyfetch-content {
-  overflow-x: auto;
 }
 /*   }
 *   @module-alteration anyfetch-thread-part { */
