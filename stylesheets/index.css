@@ -7,6 +7,7 @@ article.anyfetch-document-snippet {
 }
 article.anyfetch-document-snippet > *, article.anyfetch-document-snippet p, article.anyfetch-document-snippet figure {
   margin: 0.2em;
+  margin-right: 1em;
   padding: 0;
 }
 
@@ -105,8 +106,13 @@ figure.anyfetch-aside-image img {
 }
 /* } */
 
-/* @module anyfetch-pill-list { */
-ul.anyfetch-pill-list {
+hgroup.anyfetch-title-group {
+  overflow: hidden;
+}
+
+/* @module anyfetch-pill-list, anyfetch-list { */
+ul.anyfetch-pill-list,
+ul.anyfetch-inline-list {
   display: inline-block;
   white-space: nowrap;
   overflow-x: hidden;
@@ -116,17 +122,23 @@ ul.anyfetch-pill-list {
   mask-image: linear-gradient(to right, rgba(2,255,255,1) 95%, rgba(255,255,255,0) 100%);
   -webkit-mask-image: linear-gradient(to right, rgba(2,255,255,1) 95%, rgba(255,255,255,0) 100%);
 }
-ul.anyfetch-pill-list li {
+ul.anyfetch-pill-list li,
+ul.anyfetch-inline-list li {
   display: inline-block;
   list-style: none;
 }
-.anyfetch-mobile-scroll ul.anyfetch-pill-list  {
+.anyfetch-mobile-scroll ul.anyfetch-pill-list,
+.anyfetch-mobile-scroll ul.anyfetch-inline-list {
   overflow-x: auto;
   overflow-y: hidden;
   padding-right: 5%;
   width: 95%;
 }
 /* } */
+
+ul.anyfetch-comma-list li + li:before {
+  content: ", ";
+}
 
 /* @module anyfetch-pill { */
 li.anyfetch-pill {
