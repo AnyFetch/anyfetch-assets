@@ -37,6 +37,7 @@ article.anyfetch-document-full header.anyfetch-header {
   background-color: #fbfbfb;
   border-bottom: solid 1px lightgray;
   padding: 0.5em;
+  overflow: auto;
 }
 article.anyfetch-document-full header.anyfetch-header .anyfetch-title-group h1.anyfetch-title {
   font-size: 1.4em;
@@ -100,6 +101,8 @@ h1.anyfetch-title .anyfetch-number {
 figure.anyfetch-aside-image {
   height: 4em;
   float: left;
+  margin: 0;
+  margin-right: 1em;
 }
 figure.anyfetch-aside-image img {
   height: 100%;
