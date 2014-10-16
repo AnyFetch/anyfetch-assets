@@ -13,7 +13,37 @@
    version="1.1"
    id="svg2"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="539ef7289f240405465a2e1f.svg">
+   sodipodi:docname="539ef7289f240405465a2e1f_grayscale.svg">
+  <metadata
+     id="metadata356">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs354">
+    <filter
+       inkscape:label="Desaturate"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Color"
+       inkscape:menu-tooltip="Render in shades of gray by reducing saturation to zero"
+       color-interpolation-filters="sRGB"
+       id="filter2991">
+      <feColorMatrix
+         type="saturate"
+         values="0"
+         id="feColorMatrix2993" />
+    </filter>
+  </defs>
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -36,70 +66,57 @@
      inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg2" />
-  <metadata
-     id="metadata356">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <defs
-     id="defs354" />
   <g
+     id="g4137"
      transform="matrix(0.71845065,0,0,0.71845065,20.684909,94.282969)"
-     id="g4137">
+     style="filter:url(#filter2991)">
     <g
-       id="g3353"
-       transform="translate(0,-102.4)">
+       transform="translate(0,-102.4)"
+       id="g3353">
       <path
-         transform="scale(0.8,0.8)"
-         inkscape:connector-curvature="0"
+         style="fill:#0ba25e;fill-opacity:1;stroke:none"
+         d="M 112.9125,596.4625 1.4296692,403.36857 208.85074,44.104736 272.1375,320.275 z"
          id="path3335"
-         d="M 112.9125,596.4625 1.4296692,403.36857 208.85074,44.104736 272.1375,320.275 z"
-         style="fill:#565656;fill-opacity:1;stroke:none" />
-      <path
-         transform="scale(0.8,0.8)"
          inkscape:connector-curvature="0"
+         transform="scale(0.8,0.8)" />
+      <path
+         style="fill:#089156;fill-opacity:1;stroke:none"
+         d="M 272.1375,320.275 320.21761,236.99781 208.85074,44.104736 z"
          id="path3341"
-         d="M 272.1375,320.275 320.21761,236.99781 208.85074,44.104736 z"
-         style="fill:#4c4c4c;fill-opacity:1;stroke:none" />
+         inkscape:connector-curvature="0"
+         transform="scale(0.8,0.8)" />
     </g>
     <g
-       id="g3357"
-       transform="matrix(-0.5,-0.8660254,0.8660254,-0.5,143.31364,537.10793)">
+       transform="matrix(-0.5,-0.8660254,0.8660254,-0.5,143.31364,537.10793)"
+       id="g3357">
       <path
-         style="fill:#898989;fill-opacity:1;stroke:none"
-         d="M 112.9125,596.4625 1.4296692,403.36857 208.85074,44.104736 272.1375,320.275 z"
+         transform="scale(0.8,0.8)"
+         inkscape:connector-curvature="0"
          id="path3359"
-         inkscape:connector-curvature="0"
-         transform="scale(0.8,0.8)" />
+         d="M 112.9125,596.4625 1.4296692,403.36857 208.85074,44.104736 272.1375,320.275 z"
+         style="fill:#2a71e9;fill-opacity:1;stroke:none" />
       <path
-         style="fill:#818181;fill-opacity:1;stroke:none"
-         d="M 272.1375,320.275 320.21761,236.99781 208.85074,44.104736 z"
-         id="path3361"
+         transform="scale(0.8,0.8)"
          inkscape:connector-curvature="0"
-         transform="scale(0.8,0.8)" />
+         id="path3361"
+         d="M 272.1375,320.275 320.21761,236.99781 208.85074,44.104736 z"
+         style="fill:#296ad9;fill-opacity:1;stroke:none" />
     </g>
     <g
-       transform="matrix(-0.5,0.8660254,-0.8660254,-0.5,625.48693,93.24071)"
-       id="g3363">
+       id="g3363"
+       transform="matrix(-0.5,0.8660254,-0.8660254,-0.5,625.48693,93.24071)">
       <path
-         transform="scale(0.8,0.8)"
-         inkscape:connector-curvature="0"
-         id="path3365"
+         style="fill:#fccd48;fill-opacity:1;stroke:none"
          d="M 112.9125,596.4625 1.4296692,403.36857 208.85074,44.104736 272.1375,320.275 z"
-         style="fill:#a2a2a2;fill-opacity:1;stroke:none" />
-      <path
-         transform="scale(0.8,0.8)"
+         id="path3365"
          inkscape:connector-curvature="0"
-         id="path3367"
+         transform="scale(0.8,0.8)" />
+      <path
+         style="fill:#e3b73a;fill-opacity:1;stroke:none"
          d="M 272.1375,320.275 320.21761,236.99781 208.85074,44.104736 z"
-         style="fill:#8e8e8e;fill-opacity:1;stroke:none" />
+         id="path3367"
+         inkscape:connector-curvature="0"
+         transform="scale(0.8,0.8)" />
     </g>
   </g>
 </svg>

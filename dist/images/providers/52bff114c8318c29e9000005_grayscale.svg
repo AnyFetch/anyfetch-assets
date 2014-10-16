@@ -15,10 +15,10 @@
    width="512"
    height="512"
    xml:space="preserve"
-   sodipodi:docname="52bff114c8318c29e9000005.svg"><metadata
+   sodipodi:docname="52bff114c8318c29e9000005_grayscale.svg"><metadata
      id="metadata2991"><rdf:RDF><cc:Work
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
      id="defs2989"><clipPath
        clipPathUnits="userSpaceOnUse"
        id="clipPath3019"><path
@@ -33,10 +33,10 @@
        inkscape:menu="Color"
        inkscape:menu-tooltip="Render in shades of gray by reducing saturation to zero"
        color-interpolation-filters="sRGB"
-       id="filter3286"><feColorMatrix
+       id="filter2995"><feColorMatrix
          type="saturate"
          values="0"
-         id="feColorMatrix3288" /></filter></defs><sodipodi:namedview
+         id="feColorMatrix2997" /></filter></defs><sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1"
@@ -62,7 +62,7 @@
      transform="matrix(1.25,0,0,-1.25,0,512)"><g
        id="g3010"
        transform="translate(-2.645538,4.649445)"
-       style="filter:url(#filter3286)"><g
+       style="filter:url(#filter2995)"><g
          transform="matrix(3.4969026,0,0,3.4969026,134.94653,363.95351)"
          id="g2995"><path
            inkscape:connector-curvature="0"
