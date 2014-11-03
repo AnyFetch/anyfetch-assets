@@ -160,6 +160,10 @@ li.anyfetch-pill {
 span.anyfetch-hlt {
   background-color: lightyellow;
 }
+
+li.anyfetch-hlt {
+  background-color: lightyellow;
+}
 /* } */
 
 /* @module anyfetch-right-arrow { */
