@@ -11,12 +11,7 @@ article.anyfetch-document-snippet > *, article.anyfetch-document-snippet p, arti
   padding: 0;
 }
 
-/*   @module-alteration anyfetch-content { */
-article.anyfetch-document-snippet main.anyfetch-content {
-  font-weight: lighter;
-}
-/*   }
- *   @module-alteration anyfetch-title { */
+/* @module-alteration anyfetch-title { */
 article.anyfetch-document-snippet h1.anyfetch-title {
   font-size: 1em;
   font-weight: bold;
@@ -27,9 +22,6 @@ article.anyfetch-document-snippet h1.anyfetch-title {
   max-height: 1.5em;
   margin: 0;
 }
-
-/*   }
- * } */
 
 /* @module anyfetch-document-full {
  *   @module-alteration anyfetch-header { */
