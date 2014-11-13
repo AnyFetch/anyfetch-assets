@@ -130,6 +130,28 @@ ul.anyfetch-inline-list li {
   display: inline-block;
   list-style: none;
 }
+
+ul.anyfetch-check-list li{
+  list-style: none;
+}
+h3.anyfetch-title-list {
+  font-size: 1.1em;
+}
+ul.anyfetch-comment-list li{
+  margin-top: 0.4em;
+  margin-bottom: 0.4em;
+}
+span.anyfetch-comment-author {
+  font-size: 0.75em;
+  padding: 0.2em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  margin: 0;
+  border-radius: 1em;
+  color: gray;
+  border: solid 1px darkgray;
+}
+
 .anyfetch-mobile-scroll ul.anyfetch-pill-list,
 .anyfetch-mobile-scroll ul.anyfetch-inline-list {
   overflow-x: auto;
