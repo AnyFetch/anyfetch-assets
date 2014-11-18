@@ -1,0 +1,51 @@
+ul.anyfetch-pill-list,ul.anyfetch-inline-list {
+  display: inline-block;
+  white-space: nowrap;
+  overflow-x: hidden;
+  width: 100%;
+  margin: 0;
+  padding: .1em 0;
+}
+
+ul.anyfetch-pill-list {
+  position: relative;
+}
+
+ul.anyfetch-pill-list:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  width: 2em;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  mask-image: linear-gradient(to left, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+  -webkit-mask-image: linear-gradient(to left, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+  background-color: white;
+  z-index: 100;
+}
+
+ul.anyfetch-pill-list li,ul.anyfetch-inline-list li {
+  display: inline-block;
+  list-style: none;
+}
+
+.anyfetch-mobile-scroll ul.anyfetch-pill-list,.anyfetch-mobile-scroll ul.anyfetch-inline-list {
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-right: 5%;
+  width: 95%;
+}
+
+ul.anyfetch-comma-list li + li:before {
+  content: ", ";
+}
+
+li.anyfetch-pill {
+  font-size: .75em;
+  padding: .1em .5em;
+  margin: 0;
+  border-radius: 1em;
+  color: gray;
+  border: solid .1em darkgray;
+}
