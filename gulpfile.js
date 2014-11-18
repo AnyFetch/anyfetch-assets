@@ -85,9 +85,9 @@ gulp.task('img', ['svgProviders']);
 gulp.task('js', ['minifyJs', 'concatJs']);
 
 gulp.task('watch', ['build'], function watch() {
-  gulp.watch(paths.img.path, ['img']);
-  gulp.watch(paths.js.path, ['js']);
-  gulp.watch(paths.less.path, ['less']);
+  gulp.watch(paths.img.path + '*/**', ['img']);
+  gulp.watch(paths.js.path + '*/**', ['js']);
+  gulp.watch(paths.less.path + '*/**', ['less']);
 });
 
 gulp.task('default', ['build']);
