@@ -1,32 +1,42 @@
 var gulp = require('gulp');
-var minifyCSS = require('gulp-minify-css');
 var rename = require('gulp-rename');
 var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
 var jshint = require('gulp-jshint');
 var svgmin = require("gulp-svgmin");
 var debug = require('gulp-debug');
+var less = require('gulp-less');
+var minifyCss = require('gulp-minify-css');
 
-var CSS  = './stylesheets/';
+var LESS  = './stylesheets/style.less';
 var JS   = './scripts/';
 var IMG   = './images/';
 var DEST = './dist/';
 var BOWER = './bower_components/';
 var MOMENT = BOWER + 'moment/min/';
 
-gulp.task('minifyCss', function minifyCss() {
-  return gulp.src(CSS + '*.css')
-    .pipe(gulp.dest(DEST))
-    .pipe(minifyCSS())
-    .pipe(rename({ extname: '.min.css' }))
+gulp.task('less.normal', function() {
+  return gulp.src(LESS)
+    .pipe(less())
+    .pipe(rename({
+      basename: 'index',
+      extname: '.css'
+    }))
     .pipe(gulp.dest(DEST));
 });
 
-gulp.task('concatCss', ['minifyCss'], function concatCss() {
-  return gulp.src([DEST + 'index.min.css', DEST + 'compact.min.css'])
-    .pipe(concat('index-compact.min.css'))
+gulp.task('less.min', function() {
+  return gulp.src(LESS)
+    .pipe(less())
+    .pipe(minifyCss())
+    .pipe(rename({
+      basename: 'index',
+      extname: '.min.css'
+    }))
     .pipe(gulp.dest(DEST));
 });
+
+gulp.task('less', ['less.normal', 'less.min']);
 
 gulp.task('lint', function() {
   return gulp.src(JS + '*.js')
@@ -64,4 +74,4 @@ gulp.task('watch', function watch() {
 
 gulp.task('default', ['build']);
 
-gulp.task('build', ['minifyCss', 'concatCss', 'lint', 'minifyJs', 'concatJs', 'img']);
+gulp.task('build', ['less', 'lint', 'minifyJs', 'concatJs', 'img']);
