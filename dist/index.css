@@ -39,6 +39,7 @@
   margin: -0.5em;
 }
 header.anyfetch-header {
+  overflow: hidden;
   zoom: 1;
 }
 header.anyfetch-header:before,
@@ -112,6 +113,8 @@ li.anyfetch-pill {
 .anyfetch-document-snippet {
   margin: 0;
   padding: 0.5em;
+  overflow: hidden;
+  zoom: 1;
 }
 .anyfetch-document-snippet main.anyfetch-content {
   font-weight: lighter;
