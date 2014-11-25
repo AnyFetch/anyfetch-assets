@@ -35,6 +35,15 @@
   overflow: auto;
   padding: 0.7em;
 }
+.anyfetch-document-full main.anyfetch-content .anyfetch-section-title {
+  margin-bottom: .8em;
+}
+.anyfetch-document-full main.anyfetch-content ul {
+  margin-top: .8em;
+}
+.anyfetch-document-full main.anyfetch-content p {
+  margin-top: .8em;
+}
 .anyfetch-document-full article.anyfetch-thread-part {
   margin: -0.5em;
 }
@@ -61,6 +70,17 @@ header.anyfetch-header h1.anyfetch-title .anyfetch-number {
 }
 header.anyfetch-header .anyfetch-title-detail {
   color: gray;
+}
+ul.anyfetch-list,
+ul.anyfetch-list-no-bullet {
+  padding-left: 1em;
+}
+ul.anyfetch-list li,
+ul.anyfetch-list-no-bullet li {
+  margin-bottom: .2em;
+}
+ul.anyfetch-list-no-bullet {
+  list-style: none;
 }
 ul.anyfetch-pill-list,
 ul.anyfetch-inline-list {
@@ -102,7 +122,7 @@ ul.anyfetch-inline-list li {
 ul.anyfetch-comma-list li + li:before {
   content: ", ";
 }
-li.anyfetch-pill {
+.anyfetch-pill {
   font-size: .75em;
   padding: .1em .5em;
   margin: 0;

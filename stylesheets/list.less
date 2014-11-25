@@ -1,4 +1,17 @@
-ul.anyfetch-pill-list,ul.anyfetch-inline-list {
+ul.anyfetch-list,
+ul.anyfetch-list-no-bullet {
+  padding-left: 1em;
+  li {
+    margin-bottom: .2em;
+  }
+}
+
+ul.anyfetch-list-no-bullet {
+  list-style: none;
+}
+
+ul.anyfetch-pill-list,
+ul.anyfetch-inline-list {
   display: inline-block;
   white-space: nowrap;
   overflow-x: hidden;
@@ -25,12 +38,14 @@ ul.anyfetch-pill-list:after {
   z-index: 1;
 }
 
-ul.anyfetch-pill-list li,ul.anyfetch-inline-list li {
+ul.anyfetch-pill-list li,
+ul.anyfetch-inline-list li {
   display: inline-block;
   list-style: none;
 }
 
-.anyfetch-mobile-scroll ul.anyfetch-pill-list,.anyfetch-mobile-scroll ul.anyfetch-inline-list {
+.anyfetch-mobile-scroll ul.anyfetch-pill-list,
+.anyfetch-mobile-scroll ul.anyfetch-inline-list {
   overflow-x: auto;
   overflow-y: hidden;
   padding-right: 5%;
@@ -41,7 +56,7 @@ ul.anyfetch-comma-list li + li:before {
   content: ", ";
 }
 
-li.anyfetch-pill {
+.anyfetch-pill {
   font-size: .75em;
   padding: .1em .5em;
   margin: 0;
