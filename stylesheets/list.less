@@ -22,7 +22,7 @@ ul.anyfetch-pill-list:after {
   mask-image: linear-gradient(to left, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
   -webkit-mask-image: linear-gradient(to left, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
   background-color: white;
-  z-index: 100;
+  z-index: 1;
 }
 
 ul.anyfetch-pill-list li,ul.anyfetch-inline-list li {
@@ -50,13 +50,19 @@ li.anyfetch-pill {
   border: solid .1em darkgray;
 }
 
-ul.anyfetch-check-list li{
+ul.anyfetch-check-list {
   list-style: none;
+  padding: 0;
+  padding-left: 1em;
+  li {
+    padding: 0;
+    list-style-type: none;
+  }
 }
 h3.anyfetch-title-list {
   font-size: 1.1em;
 }
-ul.anyfetch-comment-list li{
+ul.anyfetch-comment-list li {
   margin-top: 0.4em;
   margin-bottom: 0.4em;
 }
