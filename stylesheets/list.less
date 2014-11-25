@@ -1,9 +1,12 @@
-ul.anyfetch-list,
 ul.anyfetch-list-no-bullet {
   padding-left: 1em;
   li {
     margin-bottom: .2em;
   }
+}
+
+ul.anyfetch-list {
+  padding-left: 3em;
 }
 
 ul.anyfetch-list-no-bullet {
@@ -52,8 +55,12 @@ ul.anyfetch-inline-list li {
   width: 95%;
 }
 
-ul.anyfetch-comma-list li + li:before {
-  content: ", ";
+ul.anyfetch-comma-list {
+  display: inline-block;
+  list-style: none;
+  li + li:before {
+    content: ", ";
+  }
 }
 
 .anyfetch-pill {
