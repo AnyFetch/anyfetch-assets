@@ -76,7 +76,7 @@ header.anyfetch-header h1.anyfetch-title .anyfetch-number {
   min-width: 1em;
   text-align: center;
   color: #646464;
-  border: 0.1em solid #646464;
+  border: 1px solid #646464;
   font-size: .8em;
   line-height: 1.2em;
   margin-right: .5em;
@@ -146,7 +146,7 @@ ul.anyfetch-comma-list li + li:before {
   margin: 0;
   border-radius: 1em;
   color: gray;
-  border: solid .1em darkgray;
+  border: solid 1px darkgray;
 }
 ul.anyfetch-check-list {
   list-style: none;
