@@ -1,7 +1,8 @@
 .anyfetch-document-full {
   header.anyfetch-header {
-    background-color: #fbfbfb;
+    background-color: whitesmoke;
     border-bottom: solid 1px lightgray;
+    border-top: solid 1px lightgray;
     padding: 0.5em;
     overflow: auto;
     .anyfetch-title-group {
@@ -24,6 +25,13 @@
     .anyfetch-section-title {
       margin-bottom: .8em;
     }
+  }
+  article.anyfetch-thread-part {
+    margin: -0.7em;
+  }
+
+  .anyfetch-type-contact,
+  .anyfetch-type-event {
     ul {
       margin-top: .8em;
     }
@@ -31,7 +39,16 @@
       margin-top: .8em;
     }
   }
-  article.anyfetch-thread-part {
-    margin: -0.5em;
+
+  .anyfetch-thread-part {
+    header.anyfetch-header {
+      background-color: lighten(whitesmoke, 2%);
+      margin-top: 1em;
+      .anyfetch-title-group {
+        p.anyfetch-title-detail {
+          margin: 0;
+        }
+      }
+    }
   }
 }

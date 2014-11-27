@@ -29,8 +29,9 @@
 }
 /* '' */
 .anyfetch-document-full header.anyfetch-header {
-  background-color: #fbfbfb;
+  background-color: whitesmoke;
   border-bottom: solid 1px lightgray;
+  border-top: solid 1px lightgray;
   padding: 0.5em;
   overflow: auto;
 }
@@ -51,14 +52,23 @@
 .anyfetch-document-full main.anyfetch-content .anyfetch-section-title {
   margin-bottom: .8em;
 }
-.anyfetch-document-full main.anyfetch-content ul {
-  margin-top: .8em;
-}
-.anyfetch-document-full main.anyfetch-content p {
-  margin-top: .8em;
-}
 .anyfetch-document-full article.anyfetch-thread-part {
-  margin: -0.5em;
+  margin: -0.7em;
+}
+.anyfetch-document-full .anyfetch-type-contact ul,
+.anyfetch-document-full .anyfetch-type-event ul {
+  margin-top: .8em;
+}
+.anyfetch-document-full .anyfetch-type-contact p,
+.anyfetch-document-full .anyfetch-type-event p {
+  margin-top: .8em;
+}
+.anyfetch-document-full .anyfetch-thread-part header.anyfetch-header {
+  background-color: #fafafa;
+  margin-top: 1em;
+}
+.anyfetch-document-full .anyfetch-thread-part header.anyfetch-header .anyfetch-title-group p.anyfetch-title-detail {
+  margin: 0;
 }
 header.anyfetch-header {
   overflow: hidden;
@@ -77,9 +87,11 @@ header.anyfetch-header h1.anyfetch-title .anyfetch-number {
   text-align: center;
   color: #646464;
   border: 1px solid #646464;
-  font-size: .8em;
+  font-size: .7em;
   line-height: 1.2em;
   margin-right: .5em;
+  vertical-align: middle;
+  margin-bottom: .3em;
 }
 header.anyfetch-header .anyfetch-title-detail {
   color: gray;
@@ -133,7 +145,6 @@ ul.anyfetch-inline-list li {
   width: 95%;
 }
 ul.anyfetch-comma-list {
-  display: inline-block;
   list-style: none;
 }
 ul.anyfetch-comma-list li + li:before {
