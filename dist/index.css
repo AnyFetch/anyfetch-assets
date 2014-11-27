@@ -47,28 +47,34 @@
 }
 .anyfetch-document-full main.anyfetch-content {
   overflow: auto;
-  padding: 0.7em;
+  padding: 0.5em;
 }
 .anyfetch-document-full main.anyfetch-content .anyfetch-section-title {
   margin-bottom: .8em;
 }
 .anyfetch-document-full article.anyfetch-thread-part {
-  margin: -0.7em;
+  margin: 0 -0.5em;
 }
-.anyfetch-document-full .anyfetch-type-contact ul,
-.anyfetch-document-full .anyfetch-type-event ul {
+.anyfetch-document-full.anyfetch-type-contact ul,
+.anyfetch-document-full.anyfetch-type-event ul {
   margin-top: .8em;
 }
-.anyfetch-document-full .anyfetch-type-contact p,
-.anyfetch-document-full .anyfetch-type-event p {
+.anyfetch-document-full.anyfetch-type-contact p,
+.anyfetch-document-full.anyfetch-type-event p {
   margin-top: .8em;
 }
-.anyfetch-document-full .anyfetch-thread-part header.anyfetch-header {
-  background-color: #fafafa;
-  margin-top: 1em;
-}
-.anyfetch-document-full .anyfetch-thread-part header.anyfetch-header .anyfetch-title-group p.anyfetch-title-detail {
+.anyfetch-document-full.anyfetch-type-email-thread article.anyfetch-thread-part header.anyfetch-header p.anyfetch-title-detail {
   margin: 0;
+}
+.anyfetch-document-full.anyfetch-type-email-thread article.anyfetch-thread-part header.anyfetch-header {
+  background-color: #fafafa;
+}
+.anyfetch-document-full.anyfetch-type-email-thread ul.anyfetch-pill-list,
+.anyfetch-document-full.anyfetch-type-email-thread ul.anyfetch-inline-list {
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-right: 2em;
+  box-sizing: border-box;
 }
 header.anyfetch-header {
   overflow: hidden;
