@@ -17,6 +17,7 @@ window.anyfetchAssets = {
     var dateNodes = doc.getElementsByClassName('anyfetch-date');
     Array.prototype.forEach.call(dateNodes, function(node) {
       var iso8601 = node.getAttribute("data-iso8601");
+      var format = node.getAttribute("data-moment-format");
 
       if(!iso8601) {
         iso8601 = node.textContent;
@@ -28,7 +29,7 @@ window.anyfetchAssets = {
       if(options.fromNow) {
         formatted = mDate.fromNow();
       } else {
-        formatted = mDate.format(options.format || 'lll');
+        formatted = mDate.format(options.format || format || 'lll');
       }
       node.textContent = formatted.charAt(0).toUpperCase() + formatted.slice(1);
     });
