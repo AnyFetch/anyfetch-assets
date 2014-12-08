@@ -1,15 +1,15 @@
 anyfetch-assets
-======================
+================
 
-Introduction
-------------
+## Introduction
 
-Anyfetch Assets is made to help you use default anyfetch snippet & full mustache templates by styling them, and provide other usefull resources as provider images for example.
+Anyfetch Assets let you style default AnyFetch snippet & full templates, and provides other useful resources such as images for different providers.
 
-Snippet style tries to be not intrusive and respactful toward your current styles. Those styles will only apply on template elements (with the class namespace `anyfetch-`). They are also made of relative measures and font agnostic.
+The styles tries to remain unobstrusive and respectful of your current layout. Those styles will only apply on template elements (within the namespace `anyfetch-`). They are also made of relative measures (`em`) and font agnostic.
 
-Usage
------
+This repository is embedded in every AnyFetch applications. Forking it will let you define custom styles for your document-types, or add an icon for your provider that will be used on all AnyFetch applications.
+
+## Usage
 
 Just run in your terminal:
 
@@ -27,8 +27,7 @@ anyfetchAssets.formatDates();
 </script>
 ```
 
-Build
------
+## Build
 
 If you want to build this repository:
 
@@ -37,8 +36,7 @@ npm install
 gulp
 ```
 
-Contributing
-------
+## Contributing
 
 * Update the version in `bower.json`.
 * Run `gulp` to compile production files in the `dist/` directory.
@@ -47,8 +45,7 @@ Contributing
 * You can now run `git push origin master vx.x.x`.
 * You're done!
 
-Adding an icon
-------
+## Adding an icon
 
 You have to respect some rules when you plan to add an icon in anyfetch-assets (like a provider icon for example):
 
@@ -57,4 +54,4 @@ You have to respect some rules when you plan to add an icon in anyfetch-assets (
 * Generate a grayscale icon if needed. (in Inkscape: Select All, then Filters > Color > Desaturate). Save it as filename_grayscale.svg
 * Run `gulp` to minimise your svg in the `dist/` directory, but as this process can be destructive, be sure to check if your icon is not broken in a web browser.
 If others icons are modified in the process (`git diff`), ensure they are not broken too.
-* Commit your changes and the `dist/` folder, and follow instruction described in the *Contributing* section of this README.
+* Commit your changes *and* the `dist/` folder, and follow instruction described in the *Contributing* section of this README.
