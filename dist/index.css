@@ -238,3 +238,6 @@ article.anyfetch-document-snippet.anyfetch-type-contact h1.anyfetch-title,
 article.anyfetch-document-snippet.anyfetch-type-image h1.anyfetch-title {
   width: auto;
 }
+main.anyfetch-content {
+  overflow-x: hidden;
+}
