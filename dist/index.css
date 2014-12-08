@@ -27,7 +27,6 @@
 .anyfetch-icon-people:before {
   content: '\e801';
 }
-/* '' */
 .anyfetch-document-full header.anyfetch-header {
   background-color: whitesmoke;
   border-bottom: solid 1px lightgray;
@@ -121,8 +120,8 @@ ul.anyfetch-inline-list {
   width: 100%;
   margin: 0;
   padding: .1em 0;
-  mask-image: linear-gradient(to left, transparent 0, #ffffff 2em);
-  -webkit-mask-image: linear-gradient(to left, transparent 0, #ffffff 2em);
+  mask-image: linear-gradient(to left, transparent 0, white 2em);
+  -webkit-mask-image: linear-gradient(to left, transparent 0, white 2em);
 }
 ul.anyfetch-pill-list li,
 ul.anyfetch-inline-list li {
