@@ -28,7 +28,8 @@ window.anyfetchAssets = {
 
       if(options.fromNow) {
         formatted = mDate.fromNow();
-      } else {
+      }
+      else {
         formatted = mDate.format(options.format || format || 'lll');
       }
       node.textContent = formatted.charAt(0).toUpperCase() + formatted.slice(1);
@@ -41,8 +42,8 @@ window.anyfetchAssets = {
       var firstTime = dates[0];
       var secondTime = dates[1];
       if(firstTime && secondTime) {
-        var firstDate = moment($(firstTime).attr('data-iso8601'));
-        var secondDate = moment($(secondTime).attr('data-iso8601'));
+        var firstDate = moment(firstTime.getAttribute('data-iso8601'));
+        var secondDate = moment(secondTime.getAttribute('data-iso8601'));
 
         if(firstDate.format('L') === secondDate.format('L')) {
           // Same date, let's keep only the hour
