@@ -36,11 +36,11 @@
        inkscape:menu="Color"
        inkscape:menu-tooltip="Render in shades of gray by reducing saturation to zero"
        color-interpolation-filters="sRGB"
-       id="filter2988">
+       id="filter3204">
       <feColorMatrix
          type="saturate"
          values="0"
-         id="feColorMatrix2990" />
+         id="feColorMatrix3206" />
     </filter>
   </defs>
   <sodipodi:namedview
@@ -61,27 +61,28 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:zoom="0.90509668"
-     inkscape:cx="33.129511"
+     inkscape:cx="-128.73165"
      inkscape:cy="103.75154"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg2" />
+     inkscape:current-layer="svg2"
+     inkscape:snap-page="true" />
   <g
      id="g4"
-     transform="matrix(0.01032039,0,0,0.01032039,20.927317,85.213026)"
-     style="filter:url(#filter2988)">
+     transform="matrix(0.01136692,0,0,0.01136692,-2.9100203,67.894524)"
+     style="filter:url(#filter3204)">
     <path
        d="m 41608,250 c 2030,0 3691,1661 3691,3691 l 0,1070 L 40171,8674 22713,20700 5255,8552 l 0,24295 -1314,0 C 1911,32847 250,31186 250,29156 L 250,3942 C 250,1912 1911,251 3941,251 L 22713,14169 41607,251 z"
        id="path6"
        inkscape:connector-curvature="0"
        style="fill:#e75a4d" />
     <polygon
-       points="22713,20700 5255,8552 5255,32847 40172,32847 40172,8674 "
+       points="40172,32847 40172,8674 22713,20700 5255,8552 5255,32847 "
        id="polygon8"
        style="fill:#e7e4d7" />
     <polygon
-       points="5255,32847 22713,20700 22634,20644 5255,32580 "
+       points="5255,32580 5255,32847 22713,20700 22634,20644 "
        id="polygon10"
        style="fill:#b8b7ae" />
     <polygon

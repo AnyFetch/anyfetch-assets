@@ -37,35 +37,36 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1920"
-     inkscape:window-height="1032"
+     inkscape:window-height="1031"
      id="namedview2999"
      showgrid="false"
      inkscape:zoom="0.887"
-     inkscape:cx="36.801488"
-     inkscape:cy="428.57599"
+     inkscape:cx="-168.94823"
+     inkscape:cy="158.00102"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g3016"
+     inkscape:current-layer="g3011"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
-     fit-margin-bottom="0" />
+     fit-margin-bottom="0"
+     inkscape:snap-page="true" />
   <g
      id="g3016"
      transform="translate(0,-416.57601)"
      style="fill:#216884;fill-opacity:1">
     <g
-       transform="matrix(2.4172177,0,0,2.4172177,-20.086729,-1033.0034)"
+       transform="matrix(2.8119506,0,0,2.8119506,-65.171833,-1311.5254)"
        id="g3011">
       <rect
-         ry="4.1517901"
+         ry="10.967607"
          y="614.55609"
          x="23.176741"
          height="182.08"
          width="182.08"
          id="rect3888"
-         style="fill:#216884;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+         style="fill:#0e74af;fill-opacity:1;fill-rule:nonzero;stroke:none" />
       <rect
          ry="4.1517901"
          y="630.51825"
