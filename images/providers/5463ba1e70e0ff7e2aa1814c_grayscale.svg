@@ -13,7 +13,7 @@
    id="svg2995"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="5463ba1e70e0ff7e2aa1814c.svg">
+   sodipodi:docname="5463ba1e70e0ff7e2aa1814c_grayscale.svg">
   <metadata
      id="metadata3003">
     <rdf:RDF>
@@ -22,7 +22,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -338,11 +338,11 @@
        inkscape:menu="Color"
        inkscape:menu-tooltip="Render in shades of gray by reducing saturation to zero"
        color-interpolation-filters="sRGB"
-       id="filter4109">
+       id="filter3176">
       <feColorMatrix
          type="saturate"
          values="0"
-         id="feColorMatrix4111" />
+         id="feColorMatrix3178" />
     </filter>
   </defs>
   <sodipodi:namedview
@@ -358,9 +358,9 @@
      inkscape:window-height="1031"
      id="namedview2999"
      showgrid="false"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="276.37311"
-     inkscape:cy="258.80435"
+     inkscape:zoom="1.2544074"
+     inkscape:cx="444.58239"
+     inkscape:cy="293.20084"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -372,11 +372,12 @@
      inkscape:snap-bbox="true"
      inkscape:bbox-paths="true"
      inkscape:bbox-nodes="true"
-     inkscape:snap-bbox-edge-midpoints="true" />
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-page="true" />
   <g
      id="g3016"
-     transform="translate(0,-416.57601)"
-     style="fill:#216884;fill-opacity:1;filter:url(#filter4109)">
+     transform="matrix(1.1633005,0,0,1.1633005,-41.804905,-526.40794)"
+     style="fill:#216884;fill-opacity:1;filter:url(#filter3176)">
     <g
        transform="matrix(1.790975,0,0,1.790975,7.2264945,424.12913)"
        id="g3239">

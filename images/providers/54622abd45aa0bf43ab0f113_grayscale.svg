@@ -12,7 +12,7 @@
    id="svg2995"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="54622abd45aa0bf43ab0f113.svg">
+   sodipodi:docname="54622abd45aa0bf43ab0f113_grayscale.svg">
   <metadata
      id="metadata3003">
     <rdf:RDF>
@@ -21,7 +21,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -48,11 +48,11 @@
        inkscape:menu="Color"
        inkscape:menu-tooltip="Render in shades of gray by reducing saturation to zero"
        color-interpolation-filters="sRGB"
-       id="filter3001">
+       id="filter3180">
       <feColorMatrix
          type="saturate"
          values="0"
-         id="feColorMatrix3003" />
+         id="feColorMatrix3182" />
     </filter>
   </defs>
   <sodipodi:namedview
@@ -82,15 +82,16 @@
      inkscape:snap-bbox="true"
      inkscape:bbox-paths="true"
      inkscape:bbox-nodes="true"
-     inkscape:snap-bbox-edge-midpoints="true" />
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-page="true" />
   <g
      id="g3016"
      transform="translate(0,-416.57601)"
      style="fill:#216884;fill-opacity:1">
     <g
-       transform="matrix(1.7192463,0,0,1.7192463,-562.36119,452.51241)"
+       transform="matrix(2,0,0,2,-695.99999,416.57595)"
        id="g2986"
-       style="filter:url(#filter3001)">
+       style="filter:url(#filter3180)">
       <rect
          ry="15.999999"
          y="2.9133724e-05"

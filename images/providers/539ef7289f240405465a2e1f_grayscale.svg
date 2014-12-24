@@ -37,11 +37,11 @@
        inkscape:menu="Color"
        inkscape:menu-tooltip="Render in shades of gray by reducing saturation to zero"
        color-interpolation-filters="sRGB"
-       id="filter2991">
+       id="filter3184">
       <feColorMatrix
          type="saturate"
          values="0"
-         id="feColorMatrix2993" />
+         id="feColorMatrix3186" />
     </filter>
   </defs>
   <sodipodi:namedview
@@ -60,16 +60,19 @@
      inkscape:object-paths="true"
      inkscape:object-nodes="true"
      inkscape:zoom="1.4142136"
-     inkscape:cx="161.69533"
+     inkscape:cx="58.104189"
      inkscape:cy="212.53204"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg2" />
+     inkscape:current-layer="svg2"
+     inkscape:snap-page="true"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="true" />
   <g
      id="g4137"
-     transform="matrix(0.71845065,0,0,0.71845065,20.684909,94.282969)"
-     style="filter:url(#filter2991)">
+     transform="matrix(0.80274966,0,0,0.80274966,-0.91813292,81.315515)"
+     style="filter:url(#filter3184)">
     <g
        transform="translate(0,-102.4)"
        id="g3353">

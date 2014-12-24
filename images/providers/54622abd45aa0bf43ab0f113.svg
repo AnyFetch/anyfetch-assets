@@ -67,13 +67,14 @@
      inkscape:snap-bbox="true"
      inkscape:bbox-paths="true"
      inkscape:bbox-nodes="true"
-     inkscape:snap-bbox-edge-midpoints="true" />
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-page="true" />
   <g
      id="g3016"
      transform="translate(0,-416.57601)"
      style="fill:#216884;fill-opacity:1">
     <g
-       transform="matrix(1.7192463,0,0,1.7192463,-562.36119,452.51241)"
+       transform="matrix(2,0,0,2,-695.99999,416.57595)"
        id="g2986">
       <rect
          ry="15.999999"
