@@ -63,7 +63,9 @@ gulp.task('minifyJs', function minifyJs() {
   return gulp.src(paths.js.path + '*.js')
     .pipe(gulp.dest(paths.dest.path))
     .pipe(uglify())
-    .pipe(rename({ extname: '.min.js' }))
+    .pipe(rename({
+      extname: '.min.js'
+    }))
     .pipe(gulp.dest(paths.dest.path));
 });
 
@@ -74,11 +76,13 @@ gulp.task('concatJs', ['minifyJs'], function concatCss() {
 });
 
 gulp.task('svgProviders', function svgProviders() {
-  return gulp.src(paths.img.path + 'providers/*.svg')
+  return gulp.src(paths.img.path + '*/*.svg')
     .pipe(svgmin([
-      { convertPathData: false },
+      {
+        convertPathData: false
+      },
     ]))
-    .pipe(gulp.dest(paths.dest.path + "images/providers/"));
+    .pipe(gulp.dest(paths.dest.path + "images/"));
 });
 
 gulp.task('img', ['svgProviders']);
