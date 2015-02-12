@@ -75,8 +75,8 @@ gulp.task('concatJs', ['minifyJs'], function concatCss() {
     .pipe(gulp.dest(paths.dest.path));
 });
 
-gulp.task('svgImages', function svgProviders() {
-  return gulp.src(paths.img.path + '*/*.svg')
+gulp.task('svgImages', function svgImages() {
+  return gulp.src(paths.img.path + '**/*.svg')
     .pipe(svgmin([
       {
         convertPathData: false
@@ -85,8 +85,8 @@ gulp.task('svgImages', function svgProviders() {
     .pipe(gulp.dest(paths.dest.path + "images/"));
 });
 
-gulp.task('pngImages', function svgProviders() {
-  return gulp.src(paths.img.path + '*/*.png')
+gulp.task('pngImages', function pngImages() {
+  return gulp.src(paths.img.path + '**/*.png')
     .pipe(gulp.dest(paths.dest.path + "images/"));
 });
 
